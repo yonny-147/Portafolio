@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const contenido = document.getElementById("contenido"),
   inicio = document.getElementById("inicio"),
   presentacion = document.getElementById("presentacion"),
@@ -7,7 +7,10 @@ const contenido = document.getElementById("contenido"),
   redeSociales = document.getElementById("redeSociales");
 
 const AddInicio = () => {
-  contenido.innerHTML = ` <h1> Bienvenidos a mi web </h1> `;
+  contenido.innerHTML = `<div class='present'>
+        <h1> Bienvenidos a mi web </h1> 
+        <img class="fotoPerfil" src="img/Imagen.jpeg" alt="fotoPerfil"/>
+     </div>`;
 };
 
 const AddPresentacion = () => {
@@ -16,9 +19,8 @@ const AddPresentacion = () => {
 };
 
 const AddInteracción = () => {
-
-  const barraCentral = document.getElementById("barraCentral");
-  barraCentral.innerHTML = `<div class="segundoMenu">
+  contenido.innerHTML = `
+        <div class="segundoMenu">
             <nav class="navMenu">
                 <ul class="menuDos">
                     <li id="funcion">Función principal</li>
@@ -35,13 +37,15 @@ const AddInteracción = () => {
     respuestas = document.getElementById("respuestas");
 
   const AddFuncion = () => {
-    respuestas.innerHTML = `<p>¿Cuál es tu función principal?</p>
-            <p>
-                Mi función principal como ingeniero informático en el puesto de analista del proceso administrativo es diseñar, implementar y mejorar los sistemas de información y procesos informáticos dentro de una organización, garantizando que los sistemas de información se ajusten a las necesidades del negocio, sean eficientes y efectivos, y se mantengan actualizados con las tendencias y avances tecnológicos.
-            </p>`;
+    respuestas.innerHTML = `<h3>¿Cuál es tu función principal?</h3>
+            <ol>
+                <li>
+                    Mi función principal como ingeniero informático en el puesto de analista del proceso administrativo es diseñar, implementar y mejorar los sistemas de información y procesos informáticos dentro de una organización, garantizando que los sistemas de información se ajusten a las necesidades del negocio, sean eficientes y efectivos, y se mantengan actualizados con las tendencias y avances tecnológicos.
+                </li>
+            </ol>`;
   };
   const AddAspectos = () => {
-    respuestas.innerHTML = `<p>2 aspectos técnicos fundamentales que debes conocer hoy para desarrollar tu rol</p>
+    respuestas.innerHTML = `<h3>Aspectos técnicos fundamentales que debes conocer hoy para desarrollar tu rol</h3>
             <ol>
                 <li>
                     Conocimientos de programación: Los ingenieros informáticos deben tener conocimientos sólidos en codificación y lenguajes de programación. Esto les permitirá diseñar, desarrollar y mantener software y aplicaciones informáticas, así como solucionar problemas técnicos que puedan surgir en el proceso.
@@ -52,7 +56,7 @@ const AddInteracción = () => {
             </ol>`;
   };
   const AddCompetencias = () => {
-    respuestas.innerHTML = `<p>2 competencias que hoy debes desarrollar para ejercer el cargo</p>
+    respuestas.innerHTML = `<h3>Competencias que hoy debes desarrollar para ejercer el cargo</h3>
                 <ol>
                     <li> 
                         Capacidad para resolver problemas con iniciativa, toma de decisiones, autonomía y creatividad: Los ingenieros informáticos deben ser capaces de resolver problemas de manera efectiva y eficiente, utilizando su creatividad y autonomía para tomar decisiones informadas. Esto les permitirá enfrentar los desafíos técnicos que puedan surgir en su trabajo diario y encontrar soluciones innovadoras.
