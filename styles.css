@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+body{
+    width: 99%;
+    height: 97.7vh;
+    background-image: url(img/fondo-cabecera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kalam', cursive;
+    color: white;
+}
+.fotoPerfil{
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    z-index: 100;
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+    box-shadow: -3px 0px 15px 2px rgba(1, 102, 10, 0.663);
+    border: none;
+}
+.paginaGeneral{
+    position: relative;
+    top: 14%;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #070303be;
+}
+.menu{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: 1px solid green;
+}
+.menu li{
+    list-style: none;
+    padding: 20px;
+    padding-top: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-shadow: 2px 1px 1px green;
+    cursor: pointer;
+}
+.menu li:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.segundoMenu{
+    display: flex;
+    height: 100%;
+}
+.navMenu{
+    width: 30%;
+    border-right: 1px solid green;
+}
+.menuDos{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menuDos li{
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    text-shadow: 2px 1px 1px green;
+    cursor: pointer;
+    text-align: center;
+}
+.menuDos li:hover{
+    font-size: 17px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#barraCentral{
+    width: 100%;
+    padding: 10px;
+    height: 350px;
+}
+#respuestas{
+    width: 90%;
+    height: 90px;
+    color: white;
+    padding: 15px;
+}
+#contenido{
+    width: 85%;
+    margin: auto;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px green;
+}
+#contenido h1{
+    font-size: 40px;
+    text-align: center;
+}
+#redeSociales{
+    display: flex;
+    justify-content: space-around;
+}
+#redeSociales a{
+    text-decoration: none;
+}
+#redeSociales a img{
+    width: 40px;
+    margin: 20px;
+}
+#redeSociales a img:hover{
+    width: 45px;
+    margin: 20px;
+}
