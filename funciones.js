@@ -15,7 +15,7 @@ const AddInicio = () => {
 
 const AddPresentacion = () => {
   contenido.innerHTML = ` 
-    <p> Mi nombre es Yonny Alexander Ospina, tengo 24 años, naci en la ciudad de Bogotá y actualmente recido en el municipio de la Ceja Antioquia, soy estudiante de Ingeniería informática cursando 5to semeste, amante de la tecnologia y del aprendizaje continuo, me centro en el desarrollo de aplicaciones web Frontend y Backend con conocimientos en Html, Css, JavaScript, TypeScript, Git, React, MySQL y NoSQL.</p> `;
+    <p> Mi nombre es Yonny Alexander Ospina, tengo 24 años, naci en la ciudad de Bogotá y actualmente recido en el municipio de la Ceja Antioquia, soy estudiante de Ingeniería informática cursando 5to semeste, amante de la tecnologia y del aprendizaje continuo,me gusta salir de viaje, comer, bailar, hacer depporte, montar en moto, compartir en familia y con mis mascotas. Me centro en el desarrollo de aplicaciones web Frontend y Backend con conocimientos en Html, Css, JavaScript, TypeScript, Git, React, MySQL y NoSQL.</p> `;
 };
 
 const AddInteracción = () => {
